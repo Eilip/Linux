@@ -1,0 +1,6 @@
+#!/bin/bash
+
+if [ $(whoami) = "root" ]; then
+        printf "you are super user\n"
+        echo "you are logged in as $(whoami)"
+fi
