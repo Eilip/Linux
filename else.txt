@@ -1,0 +1,12 @@
+#!/bin/bash
+
+
+if [ $(whoami) = "root" ]; then
+        printf "you are super user\n"
+        echo "you are logged in as $(whoami)"
+        else
+        printf "you are normal user\n"
+        echo "you are currently logged in as as $(whoami)"
+
+
+fi
